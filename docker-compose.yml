@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  gemini-app:
+    build: .
+    container_name: gemini-kalkulator
+    restart: always
+    ports:
+      - "3001:80"
